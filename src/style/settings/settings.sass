@@ -1,0 +1,21 @@
+=e($element)
+  &__#{$element}
+    @content
+
+=m($modifer)
+  &--#{$modifer}
+    @content
+
+=min($size)
+  @media (min-width: #{$size + px})
+    @content
+
+=max($size)
+  @media (max-width: #{$size + px})
+    @content
+
+$montserrat: 'Montserrat', sans-serif
+$roboto: 'Roboto', sans-serif
+$color-bg: #fff
+$color-txt: #333
+$font-default: 16px
